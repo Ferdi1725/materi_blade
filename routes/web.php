@@ -17,6 +17,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/ferdi', function () {
-    return view('ferdi');
+Route::get('/siswa', function () {
+    $nama = 'Ferdiansyah Saputra';
+    $nilai = [80, 30, 45, 70, 90];
+    return view('siswa', compact('nama', 'nilai'));
 });
