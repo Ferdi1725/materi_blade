@@ -8,10 +8,14 @@
     <title>Data Siswa</title>
 </head>
 <body>
-<div class="container text-center mt-3 pt-3 bg-white">
-        @for ($i = 0; $i < 5; $i++)
-        <div class="alert alert-info d-inline-block">{{ $i }}</div>
-        @endfor
-    </div>
+<!-- <div class="container text-center mt-3 pt-3 bg-white">
+    <h1 class="bg-dark px-3 py-1 text-white d-inline-block">
+            {{ $nama }}
+    </h1>
+    <br>
+    @php
+        var_dump( $nilai );
+    @endphp
+    </div>-->
 </body>
 </html>
